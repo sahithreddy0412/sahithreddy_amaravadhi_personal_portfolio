@@ -1,0 +1,107 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Set background color */
+}
+
+/* Styling header */
+header {
+    background-color: #333; /* Header background color */
+    color: white; /* Header text color */
+    text-align: center; /* Header text alignment */
+    padding: 20px 0; /* Header padding */
+}
+
+/* Styling navigation links */
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white; /* Link text color */
+    text-decoration: none;
+    transition: color 0.3s; /* Smooth transition for color change */
+}
+
+nav ul li a:hover {
+    color: #66ccff; /* Change color on hover */
+}
+
+/* Styling about section */
+#about {
+    background-color: #fff; /* Background color */
+    padding: 20px; /* Padding */
+    margin: 20px 0; /* Margin */
+}
+
+/* Styling portfolio section */
+#portfolio {
+    background-color: #f9f9f9; /* Background color */
+    padding: 20px; /* Padding */
+    margin: 20px 0; /* Margin */
+    display: grid; /* Grid layout for portfolio projects */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+    grid-gap: 20px; /* Spacing between projects */
+}
+
+.project {
+    border: 1px solid #ccc; /* Border for project */
+    padding: 10px; /* Padding */
+}
+
+.project img {
+    width: 100%; /* Make image responsive */
+}
+
+/* Styling contact section */
+#contact {
+    background-color: #fff; /* Background color */
+    padding: 20px; /* Padding */
+    margin: 20px 0; /* Margin */
+}
+
+form {
+    margin-top: 20px; /* Margin for form */
+}
+
+form div {
+    margin-bottom: 10px; /* Margin between form elements */
+}
+
+label {
+    display: block; /* Display label as block */
+    margin-bottom: 5px; /* Margin for label */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; /* Full width for input fields */
+    padding: 8px; /* Padding */
+    margin-bottom: 10px; /* Margin */
+    border: 1px solid #ccc; /* Border */
+}
+
+button {
+    padding: 10px 20px; /* Padding */
+    background-color: #333; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    cursor: pointer; /* Cursor style */
+}
+
+button:hover {
+    background-color: #66ccff; /* Change color on hover */
+}
